@@ -5,7 +5,7 @@ import "./index.less"
 export  default  class Nav extends Component{
     render(){
         return <div className="nav-home">
-            <NavLink to={'/'} exact={true} >
+            <NavLink to={'/home'}  >
                 <i className='iconfont icon-shouye'></i>
                 <span>首页</span>
             </NavLink>
