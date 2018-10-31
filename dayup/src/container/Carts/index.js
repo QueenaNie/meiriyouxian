@@ -14,7 +14,8 @@ class Carts extends Component{
     }
     render() {
         return <div className='cart' >
-            <CartsHeader carts={this.props.carts}/>
+
+                <CartsHeader carts={this.props.carts}/>
             <CartsContent carts={this.props.carts}/>
         </div>
     }
