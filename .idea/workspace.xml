@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceda518a-26b5-477b-95a4-0bf141b83fab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/dayup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dayup/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayup/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dayup/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayup/src/component/Nav/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayup/src/component/Nav/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayup/src/component/Nav/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/dayup/src/component/Nav/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayup/src/container/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayup/src/container/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayup/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayup/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayup/src/store/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayup/src/store/action-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayup/src/store/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayup/src/store/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayup/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayup/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayup/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayup/src/store/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayup/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/dayup/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="ceda518a-26b5-477b-95a4-0bf141b83fab" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,7 +17,7 @@
       <file leaf-file-name="HomeProduce.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayup/src/container/Home/HomeProduce.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
+            <state relative-caret-position="1584">
               <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -41,7 +29,7 @@
       <file leaf-file-name="NavRouter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayup/src/container/Home/NavRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
+            <state relative-caret-position="792">
               <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -53,7 +41,7 @@
       <file leaf-file-name="Hotsale.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dayup/src/component/homeSlider/Hotsale.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="99">
               <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -65,7 +53,7 @@
       <file leaf-file-name="HomeNav.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayup/src/container/Home/HomeNav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
+            <state relative-caret-position="792">
               <caret line="28" column="93" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -77,7 +65,7 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayup/src/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="1452">
               <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
             </state>
           </provider>
@@ -86,7 +74,7 @@
       <file leaf-file-name="homeProduce.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayup/src/server/home/homeProduce.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5874">
+            <state relative-caret-position="5049">
               <caret line="153" column="21" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
             </state>
           </provider>
@@ -95,8 +83,8 @@
       <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayup/src/api/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="264">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -104,7 +92,7 @@
       <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayup/src/store/actions/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="1155">
               <caret line="36" column="45" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="45" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -116,8 +104,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayup/src/store/reducers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="29" column="69" lean-forward="true" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+            <state relative-caret-position="891">
+              <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -220,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,14 +306,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mryx" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -386,11 +374,12 @@
       <workItem from="1540690746896" duration="36617000" />
       <workItem from="1540796614155" duration="28438000" />
       <workItem from="1540956937689" duration="7059000" />
+      <workItem from="1540971979415" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125307000" />
+    <option name="totallyTimeSpent" value="125326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,12 +392,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21973094" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32890365" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -421,24 +410,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21973094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32890365" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.47508305" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32890365" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -498,10 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          <folding>
-            <element signature="e#466#525#0" />
-            <element signature="e#534#614#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,9 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,9 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,9 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-132">
           <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -725,10 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="347" column="20" selection-start-line="347" selection-start-column="20" selection-end-line="347" selection-end-column="20" />
-          <folding>
-            <element signature="e#58#1682#0" />
-            <element signature="e#1702#1787#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,9 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="957">
           <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -758,7 +725,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dayup/src/store/actions/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="1155">
           <caret line="36" column="45" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="45" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -768,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dayup/src/store/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="29" column="69" lean-forward="true" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+        <state relative-caret-position="891">
+          <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -778,7 +745,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dayup/src/container/Home/NavRouter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
+        <state relative-caret-position="792">
           <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -788,14 +755,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dayup/src/api/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="264">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dayup/src/container/Home/HomeNav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
+        <state relative-caret-position="792">
           <caret line="28" column="93" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -805,21 +772,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dayup/src/server/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="1452">
           <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dayup/src/server/home/homeProduce.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5874">
+        <state relative-caret-position="5049">
           <caret line="153" column="21" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dayup/src/container/Home/HomeProduce.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
+        <state relative-caret-position="1584">
           <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -829,7 +796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dayup/src/component/homeSlider/Hotsale.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="99">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
