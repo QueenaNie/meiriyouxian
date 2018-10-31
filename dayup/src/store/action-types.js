@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export const CHANGE_TYPES= "CHANGE_TYPES";
 // 设置轮播图的数据
 export const SET_SLIDERS= "SET_SLIDERS";
@@ -9,3 +10,13 @@ export const SET_LOGIN = "SET_LOGIN";
 
 // 设置注册时数据
 export const SET_REG  = "SET_REG";
+=======
+//首页nav
+export const HOME_NAV="HOME_NAV";
+//首页轮播
+ export const HOME_SLIDER="HOME_SLIDER";
+ //首页category
+export const HOME_CATEGORY="HOME_CATEGORY";
+//首页商品
+export const HOME_PRODUCE="HOME_PRODUCE";
+>>>>>>> f11209e85d60b3ffb1f806e2ab55a8ee2f204dcf
