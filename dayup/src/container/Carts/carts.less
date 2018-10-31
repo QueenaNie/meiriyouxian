@@ -1,0 +1,116 @@
+@r:16rem;
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+//购物车整体部分
+.cart{
+  width: 100%;
+  padding-bottom: 80/@r;
+  background: #f0f0f0;
+  //购物车头部
+  .cart-header{
+    width: 100%;
+    .header-bj{
+      width: 100%;
+      height: 230/@r;
+      background: url("../../imagesCarts/icon_buycar_bj.png") no-repeat 50% #fff;
+      padding-top: 162/@r;
+      background-size: 90/@r 90/@r;
+      background-position-y: 182/@r;
+      .header-text{
+        padding: 128/@r 0 70/@r;
+        text-align: center;
+        font-size: 15px;
+        color: #7f7f7f;
+        line-height: 20/@r;
+      }
+
+    }
+  }
+
+  //购物车 请求数据部分
+  .cart-content{
+    width: 100%;
+    margin-top: 10/@r;
+    background: #fff;
+    padding: 0 15/@r ;
+    box-sizing: border-box;
+    h2{
+      height: 50/@r;
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+      color: #000;
+      font-weight: 500;
+      line-height: 50/@r;
+    }
+    .content-list{
+      width: 100%;
+      overflow: hidden;
+      .content-list-item{
+        width: 48%;
+        margin-right: 2%;
+        float: right;
+        .content-list-item-box{
+          width: 100%;
+          box-sizing: border-box;
+          border: 1px solid #f7f7f7;
+          .content-list-item-image{
+            position: relative;
+            margin: 15/@r 0 7/@r;
+            text-align: center;
+            img{
+              width: 74%;
+            }
+          }
+        }
+        .content-list-item-title{
+          box-sizing: border-box;
+          width: 100%;
+          font-size: 14/@r;
+          margin-top: 6/@r;
+          color: #474346;
+          padding: 0 4/@r 0 0 ;
+          line-height: 20/@r;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .content-list-item-price{
+          font-size: 12/@r;
+          line-height: 14/@r;
+
+          a{
+            color: rgb(255,72,145);
+          }
+        }
+       .content-list-item-src{
+          width: 30/@r;
+          height: 30/@r;
+          float: right;
+         padding: 6/@r 5/@r 20/@r 0;
+         //padding-bottom: 20/@r;
+        }
+      }
+    }
+    p{
+      width: 100%;
+      height: 50/@r;
+      line-height: 50/@r;
+      text-align: center;
+      color: #969696;
+      font-size: 12/@r;
+    }
+
+  }
+}
+
+
+
+
+
+

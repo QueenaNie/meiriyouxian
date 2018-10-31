@@ -6,12 +6,13 @@ import Vip from  "./container/Vip/index"
 import Find from "./container/Find/index"
 import Carts from "./container/Carts/index"
 import Mine from "./container/Mine/index"
-import store from "./store/index";
-import {Provider} from "react-redux"
-import {HashRouter as Router,Route,Redirect,Link,Switch} from 'react-router-dom'
 
+import {Provider} from 'react-redux'
+import store from './store/index'
+import {HashRouter as Router,Route,Redirect,Link,Switch} from 'react-router-dom'
 ReactDOM.render(
     <Router>
+
              <Provider store={store}>
                  <App>
                      {/*<Route path="/" exact={true} component={Home}/>*/}
@@ -23,7 +24,6 @@ ReactDOM.render(
                      <Redirect  to="/home/hotsale"/>
                  </App>
              </Provider>
-
     </Router>,
     window.root);
 
