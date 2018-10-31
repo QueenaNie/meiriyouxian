@@ -1,0 +1,159 @@
+@r: 16rem;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.non-vip{
+    width: 100%;
+    height: 9.0625rem;
+    background: #FFB53E;
+    margin-bottom: 1.875rem;
+    .vip-info{
+        height: 7.0625rem;
+        position: absolute;
+        left: 1.1875rem;
+        top: 2rem;
+        width: 90%;
+        background: url('../../images//vip-userinfo-bg.png');
+        background-size: 100% 100%;
+        .vip-user-info{
+            height: 3.5rem;
+            color: #474245;
+            position: relative;
+            margin: 1.375rem 1.875rem 0 1.4375rem;
+            .user-header{
+                border-radius: 50%;
+                width: 3.5rem;
+                display: inline-block;
+            }
+            .vip-icon{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 3.5rem;
+            }
+            // .user-vip-detail{
+            //     display: inline-block;
+            //     height: 3.75rem;
+            //     vertical-align: text-bottom;
+            //     margin-left: 0.3125rem;
+            //     overflow: hidden;
+            //     white-space: nowrap;
+            //     text-overflow: ellipsis;
+            //     width: 70%;
+            //     padding-top: 1.125rem;
+            //     .go-buy-vip{
+            //         font-size: 0.75rem;
+
+            //     }
+            // }
+            .go-buy-vip{
+                position: absolute;
+                left: 4rem;
+                top:1rem;
+                font-size: 0.75rem;
+                background: url('../../images/go-buy-vip-btn.8decd06.png');
+                background-size: 100% 100%;
+                color: #ffffff;
+                // font-size: 0.75rem;
+                padding: 0.25rem 0.4375rem;
+            }
+        }
+        .vip-info-text{
+             line-height: 3.25rem;
+             width: 83%;
+             margin: 1rem auto;
+             padding-left: 1.5rem;
+             background: url('../../images//vip-calculator-bg.cd0295b.png');
+             background-size: 100% 100%;
+             span{
+                font-size: 0.875rem;
+                color: #474245;
+                font-weight: 500;
+             }
+             .money{
+                color: rgb(255, 72, 145);
+             }
+        }
+    }
+}
+
+.rights-box{
+    height: 5.625rem;
+    width: 100%;
+    .vip-icon{
+        height: 3.75rem;
+        position: relative;
+        padding-top: 0.8125rem;
+        width: 100%;
+        .icon-item{
+            display: inline-block;
+            text-align: center;
+            width: 20%;
+            img{
+                width: 2.25rem;
+                height: 2.25rem;
+                margin-bottom: 0.5rem;
+                display: inline-block;
+            }
+            .icon-text{
+                font-size: 0.75rem;
+                line-height: 1;
+                color: #969696;
+                display: block;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
+
+.redpack-box{
+    overflow-x: scroll;
+    width: 100%;
+    white-space: nowrap;
+    vertical-align: middle;
+    margin-bottom: 1.875rem;
+    &::-webkit-scrollbar{
+        display: none;
+        }
+    img{
+        display: inline-block;
+        vertical-align: middle;
+        height: 5rem;
+        margin-right: 1.25rem;
+        &:nth-child(1){
+            margin-left: 0.9375rem;
+        }
+    }
+}
+
+.goods{
+    .vip-title{
+        background: white;
+        padding: 0 0.9375rem;
+        height: 44/@r ;
+        font-size: 1.25rem;
+        color: #474245;
+        position: relative;
+        .title-box{
+            position: absolute;
+            bottom: 0;
+            font-weight: bold;
+            width: 21.5625rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin-bottom: -0.125rem;
+        }
+    }
+    .product-info-list{
+        padding: 0 0.9375rem;
+        .image-view{
+            display: block;
+            width: 100%;
+        }
+    }
+}

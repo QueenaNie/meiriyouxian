@@ -1,7 +1,10 @@
 import React, {Component} from "react"
+import Top from "./Top"
 
 export default class Find extends Component{
     render(){
-        return <div>发现</div>
+        return <div>
+            <Top/>
+        </div>
     }
 }
