@@ -44,4 +44,4 @@ import Loading from "../../component/Loading/Loading"
         </div>
     }
 }
-export default connect(state=>({...state.home}),actions)(FindSlider);
+export default connect(state=>({...state.find}),actions)(FindSlider);

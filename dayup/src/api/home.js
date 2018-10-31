@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 import {get} from "./index.js";
 // 获取轮播图数据；
 export function getSliders() {
-    return get("/getSliders")
+    return get("/findslider")
 }
 export function getLesson(category,offset,limit){
     // category :代表的是课程类型
@@ -10,8 +9,7 @@ export function getLesson(category,offset,limit){
     // limit : 限制加载多少次；
     return  get(`/getLessons/${category}?offset=${offset}&limit=${limit}`);
 }
-=======
-import  {get} from "./index"
+
 export function getNav() {
     return get('/getHomeNav')
 }
@@ -29,4 +27,3 @@ export function getProduce(produce,offset,limit) {
 
 
  
->>>>>>> f11209e85d60b3ffb1f806e2ab55a8ee2f204dcf

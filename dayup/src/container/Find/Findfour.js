@@ -61,4 +61,4 @@ class FindFour extends React.Component {
         </div>
     }
 }
-export default connect(state => ({ ...state.home }), actions)(FindFour);
+export default connect(state => ({ ...state.find }), actions)(FindFour);

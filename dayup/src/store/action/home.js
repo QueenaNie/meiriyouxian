@@ -26,7 +26,7 @@ export default {
     },
     getLesson(){
         return function(dispatch,getState){
-            let {currentTypes,lessons:{offset,limit}} = getState().home;
+            let {currentTypes,lessons:{offset,limit}} = getState().find;
             // console.log("home")
             getLesson(currentTypes,offset,limit).then(payload=>{
                 //console.log(payload);

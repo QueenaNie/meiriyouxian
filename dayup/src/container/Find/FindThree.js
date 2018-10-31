@@ -1,7 +1,7 @@
 import React from "react"
 import { connect } from "react-redux";
 import actions from "../../store/action/home"
-import { loadMore, downRefresh } from "../../utils";
+import { loadMore, downRefresh } from "../../utils-home";
 import Loading from "../../component/Loading/Loading"
 class FindThree extends React.Component {
     componentDidMount() {
@@ -14,7 +14,7 @@ class FindThree extends React.Component {
     render() {
         let { list } = this.props.lessons;
         // this.img.style.backgroundImage=url({})
-        // console.log(list);
+        console.log(list);
 
         return <div>
             <div className="list-wrap" ref={(x) => { this.content = x }}>
@@ -24,7 +24,7 @@ class FindThree extends React.Component {
 
                         <div className="article-list-wrap">
 
-                            {item.id == "1" ? <div className="article-big"><div className="big-wrap">
+                            {item.id == "4" ? <div className="article-big"><div className="big-wrap">
                                 <div className="article-card">
                                     <div className="article-author">
                                         <img src="https://j-image.missfresh.cn/img_20180628193259064.png" />
@@ -61,4 +61,4 @@ class FindThree extends React.Component {
         </div>
     }
 }
-export default connect(state => ({ ...state.home }), actions)(FindThree);
+export default connect(state => ({ ...state.find }), actions)(FindThree);

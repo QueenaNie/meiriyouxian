@@ -1,7 +1,7 @@
 import React from "react"
 import { connect } from "react-redux";
 import actions from "../../store/action/home"
-import { loadMore, downRefresh } from "../../utils";
+import { loadMore, downRefresh } from "../../utils-home";
 import Loading from "../../component/Loading/Loading"
 class FindTwo extends React.Component {
     componentDidMount() {
@@ -14,10 +14,12 @@ class FindTwo extends React.Component {
     render() {
         let { list } = this.props.lessons;
         // this.img.style.backgroundImage=url({})
-        // console.log(list);
+        console.log(list);
 
         return <div>
             <div className="list-wrap" ref={(x) => { this.content = x }}>
+           
+            
                 { list.length>0?
                     list.map((item, index) => {
                     return <div className="module-wrap" key={index}>
@@ -92,4 +94,4 @@ class FindTwo extends React.Component {
         </div>
     }
 }
-export default connect(state => ({ ...state.home }), actions)(FindTwo);
+export default connect(state => ({ ...state.find }), actions)(FindTwo);
