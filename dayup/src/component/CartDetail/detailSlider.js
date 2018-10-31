@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactSwipe from 'react-swipe';
-import Loading from '../../component/Loading/Loading'
-
 export default class DetailSlider extends React.Component{
     constructor(){
         super();

@@ -14,7 +14,7 @@ ReactDOM.render(
     <Router>
 <Provider store={store}>
     <App>
-        <Route path="/" exact={true} component={Home}/>
+        <Route path="/home" component={Home}/>
         <Route path="/vip"  component={Vip}/>
         <Route path="/find"  component={Find}/>
         <Route path="/carts"  component={Carts}/>
