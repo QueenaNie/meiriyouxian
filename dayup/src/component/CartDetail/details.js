@@ -5,6 +5,7 @@ import DetailHeader from "./detailHeader";
 import actions from "../../store/actions/index";
 import {Link} from 'react-router-dom'
 import './details.less'
+
 class Detail extends React.Component{
     componentDidMount(){
         this.props.getDetSlider();
@@ -67,7 +68,7 @@ class Detail extends React.Component{
                         <span className='infoContent'>该商品分享可领49减20红包
 
       </span>
-                        <span className='goShare'>去分享 <i className='iconfont icon-iconfontjiantou2'></i></span>
+                        <span className='goShare'>去分享 <i className='iconfont icon-iconfontjiantou2'> </i></span>
                     </div>
 
                     <p className='infoText'>已经有97344人分享了该商品
