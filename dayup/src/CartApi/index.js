@@ -1,5 +1,5 @@
 //发送请求 的方式   ajax  axios（返回promise实例） fetch（在低版本 IE下 中不支持）
-const HOST = 'http://localhost:3002';
+const HOST = 'http://localhost:3001';
 
 //fetch 返回一个 promise 的实例；
 //获取数据；
