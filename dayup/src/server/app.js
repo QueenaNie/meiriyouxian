@@ -30,6 +30,15 @@ let homeCategory = require('./home/homeCategory');
 app.get('/getHomeCategory',function(req,res){
     res.json(homeCategory);
 });
+let carts = require('./carts/carts');
+app.get('/getCarts',function(req,res){
+    res.json(carts);
+});
+let detSliders = require('./carts/sliders');
+app.get('/getDetSliders',function(req,res){
+    res.json(detSliders);
+});
+
 let homeProduce = require('./home/homeProduce');
 app.get('/getHomeProduce/:produce',function(req,res){
     let produce = req.params.produce;// all react vue 当前的分类
