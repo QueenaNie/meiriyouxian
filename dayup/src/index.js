@@ -21,7 +21,7 @@ ReactDOM.render(
                      <Route path="/find"  component={Find}/>
                      <Route path="/carts"  component={Carts}/>
                      <Route path="/mine"  component={Mine}/>
-                     <Route path="/mine"  component={Mine}/>
+
                      <Route path="/detail"  component={Detail}/>
                      <Redirect  to="/home/hotsale"/>
                  </App>
